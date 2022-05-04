@@ -1,0 +1,43 @@
+#test-id{
+    color: green;
+    width: 450px;;
+    border: darkblue;
+    font-family: "Open Sans", sans-serif;
+}
+/*if i have defined a style for some element and with definig style
+for an id within same element then also style of element will be applied to it */
+#hover-test:hover{
+    color: red;
+}
+#hover-test{
+    color: blue;
+}
+html{
+    /* this is a comment in css*/
+    background-color: #c92698;
+    font-family: 'Cairo', sans-serif;
+}
+/* id should be unique
+to define style:
+    #idname{   }  --for id
+    elementname{   }   --for elements
+    .classname{     }   --for classes
+elements in css are predefined like html, head, p, ..., etc.
+while class and id are attributes */
+body{
+    width: 450px;
+    margin: 50px auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+#bhaiya{
+    aspect-ratio: 0.5;
+    size: auto;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
